@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parcel</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div id="main">
+
+
+        <div id="form">
+            <div id="msg"></div>
+            <div class="sep">
+                <label for="nom">Nom</label><br>
+                <input type="text" id="nom" name="nom">
+            </div>
+
+            <div class="sep">
+                <label for="specialite">Specialité</label><br>
+                <select name="specialite" id="specialite">
+                    <option value=" "></option>
+                    <option value="IT">IT</option>
+                    <option value="DROIT">DROIT</option>
+                    <option value="PSYCHOLOGIE">PSYCHOLOGIE</option>
+                    <option value="LITTERATURE">LITTERATURE</option>
+                </select>
+            </div>
+
+            <div class="sep">
+                <label for="Commentaire">Commentaire</label><br>
+                <textarea name="Commentaire" class="Commentaire" id="commentaire" cols="22" rows="3"></textarea>
+            </div>
+
+            <div class="sep">
+                <input type="button" value="Post" id="btn" class="btn">
+                <!--<input type="button" value="Post" id="btn" class="btn" onclick='manageData()'>-->
+                <!--<button id="btn" class="btn">Post</button>-->
+
+            </div>
+
+        </div>
+
+        <div id="divPost">
+
+        </div>
+    </div>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
